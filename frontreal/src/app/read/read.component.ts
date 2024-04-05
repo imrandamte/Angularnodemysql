@@ -9,7 +9,7 @@ import {ApiserviceService} from '../apiservice.service';
 export class ReadComponent implements OnInit {
   products: any[] = [];
   currentPage = 1;
-  pageSize = 5;
+  pageSize = 10;
   constructor(private service:ApiserviceService) {
 
   }
